@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SecondAppJohnPaulTGonzales"
+        tools:targetApi="31">
+        <activity
+            android:name=".instructionsPopup"
+            android:exported="false" />
+        <activity
+            android:name=".HighClassPopup4"
+            android:exported="false" />
+        <activity
+            android:name=".HighClassPopup3"
+            android:exported="false" />
+        <activity
+            android:name=".HighClassPopup2"
+            android:exported="false" />
+        <activity
+            android:name=".HighClassPopup1"
+            android:exported="false" />
+        <activity
+            android:name=".MidClassPopup4"
+            android:exported="false" />
+        <activity
+            android:name=".MidClassPopup3"
+            android:exported="false" />
+        <activity
+            android:name=".MidClassPopup2"
+            android:exported="false" />
+        <activity
+            android:name=".MidClassPopup1"
+            android:exported="false" />
+        <activity
+            android:name=".LowClassPopup4"
+            android:exported="false" />
+        <activity
+            android:name=".LowClassPopup3"
+            android:exported="false" />
+        <activity
+            android:name=".LowClassPopup2"
+            android:exported="false" />
+        <activity
+            android:name=".LowClassPopup1"
+            android:exported="false" />
+        <activity
+            android:name=".High_Class_Vehicles"
+            android:exported="false" />
+        <activity
+            android:name=".MidClassVehicles"
+            android:exported="false" />
+        <activity
+            android:name=".LowClassVehicles"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_screen"
+            android:exported="false" />
+        <activity
+            android:name=".High_class_vehicles"
+            android:exported="false" />
+        <activity
+            android:name=".Mid_class_vehicles"
+            android:exported="false" />
+        <activity
+            android:name=".mainScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
